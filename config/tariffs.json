@@ -1,0 +1,24 @@
+{
+  "_comment": "Example values, in BRL, for a Brazilian Group A (subgroup A4, 13.8 kV) industrial consumer. Replace them with the values from your utility's current tariff resolution before using this in a real study. Energy tariffs are per kWh; demand tariffs are per kW of contracted demand.",
+  "utility": "Example Utility",
+  "subgroup": "A4",
+  "effective_year": "2026",
+  "peak_window": {
+    "start_hour": 18,
+    "end_hour": 21,
+    "weekdays_only": true
+  },
+  "green": {
+    "peak_energy_brl_kwh": 2.1543,
+    "off_peak_energy_brl_kwh": 0.4812,
+    "demand_brl_kw": 24.17
+  },
+  "blue": {
+    "peak_energy_brl_kwh": 0.6218,
+    "off_peak_energy_brl_kwh": 0.4812,
+    "peak_demand_brl_kw": 48.92,
+    "off_peak_demand_brl_kw": 24.17
+  },
+  "overrun_tolerance": 1.05,
+  "overrun_penalty_factor": 2.0
+}
